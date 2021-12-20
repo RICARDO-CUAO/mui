@@ -21,6 +21,7 @@ import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
 import Footer from '../footer/Footer';
+import BasicDateTimePicker from '../date-time-picker/BasicDateTimePicker'
 
 const drawerWidth = 240;
 
@@ -176,7 +177,7 @@ function DashboardContent() {
               {/* Recent Orders */}
               <Grid item xs={12}>
                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                  <Orders />
+                  <BasicDateTimePicker />
                 </Paper>
               </Grid>
             </Grid>

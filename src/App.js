@@ -12,7 +12,7 @@ import SignUp from './components/sign-up/SignUp';
 function App() {
   return (
     <Fragment>
-      <SignUp></SignUp>      
+      <Dasboard></Dasboard>      
     </Fragment>
   );
 }
